@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:OSX/ATLocationManager-MacOSX/ATLocationManager-MacOSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OSX/ATLocationManager-MacOSX/Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iOS/ATLocationManagerExample-iOS/ATLocationManagerExample-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iOS/ATLocationManagerExample-iOS/Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

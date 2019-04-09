@@ -1,0 +1,6 @@
+framework module ATLocationManager {
+  umbrella header "ATLocationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

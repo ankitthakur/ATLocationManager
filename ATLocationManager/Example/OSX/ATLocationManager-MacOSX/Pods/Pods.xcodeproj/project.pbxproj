@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B46E553E2E87C3360818DEED05F5BAD /* ATLocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6699225E6786A79C4257D7E67B4CBD /* ATLocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		156C3B6BAD8ECFE2A28DE3DF290CCE00 /* Pods-ATLocationManager-MacOSXTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C411B18BAC9605E816B0447D8305CC3A /* Pods-ATLocationManager-MacOSXTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E5BADDA1486F4FB10B654018443A08 /* Pods-ATLocationManager-MacOSXUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F93506EAC47D395AE490DC220F2DE61 /* Pods-ATLocationManager-MacOSXUITests-dummy.m */; };
+		5CC34B7CD545AB96F90C8159B861B02E /* ATLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6D6704D3C501E6EB7DE2B79C52067C /* ATLocationManager-dummy.m */; };
+		62183B0F8ECB23484BE14595381CFE11 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B745F65A12A39089BE290264EE835329 /* Cocoa.framework */; };
+		7AE7B070F5A6D9B51375699498CC0A5C /* Pods-ATLocationManager-MacOSXUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21023C20EFB239F6788C8A393896EC63 /* Pods-ATLocationManager-MacOSXUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C504B726A0F57A1A7FAE01AF516C90F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505331E00B183B6A7715A05CF8A45C54 /* CoreLocation.framework */; };
+		971701F7225B2AC300ECDFF8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971701F6225B2AC300ECDFF8 /* Location.swift */; };
+		971701FB225B42C100ECDFF8 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971701FA225B42C100ECDFF8 /* LocationError.swift */; };
+		9968E5868FB8EB7E230C5F803215DD86 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221E53B6A76E346A310107A0C7F66787 /* AppKit.framework */; };
+		9D1A6D300B3E5C06D6BD802B1DF66DDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B745F65A12A39089BE290264EE835329 /* Cocoa.framework */; };
+		B76495F59AAE8DE4BBF5DB1D65AAAA99 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B745F65A12A39089BE290264EE835329 /* Cocoa.framework */; };
+		BCE09E5B0E7B114B06A8656D10EC74FB /* Pods-ATLocationManager-MacOSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E198F456E4D9FD0F6781976641D75015 /* Pods-ATLocationManager-MacOSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1652F9D849F8BA438348D1477074898 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B745F65A12A39089BE290264EE835329 /* Cocoa.framework */; };
+		E5A35032AEDF3FDDEF9C0C9BBB177F8F /* Pods-ATLocationManager-MacOSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B34D3D3E42BD1D6B1BA0107D748BDB /* Pods-ATLocationManager-MacOSX-dummy.m */; };
+		F7785D2A875004FDFA77F09D5C2F6261 /* Pods-ATLocationManager-MacOSXTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9091D538C9BF359585DAFA1AA3508F79 /* Pods-ATLocationManager-MacOSXTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F19A6363813D378D8AFD863267B3441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3C089AF5862922D826258CD9201EBC;
+			remoteInfo = ATLocationManager;
+		};
+		B3E56E5F0E71E0D8A13737D3FD242796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279FB2960FDA14FE1605D1E4B6C7DBE4;
+			remoteInfo = "Pods-ATLocationManager-MacOSX";
+		};
+		B77B77A7063A619CAB8FA2D7B810A449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279FB2960FDA14FE1605D1E4B6C7DBE4;
+			remoteInfo = "Pods-ATLocationManager-MacOSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B0069D34EFB1DE64B6B6D3A6D1795E /* ATLocationManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATLocationManager-Info.plist"; sourceTree = "<group>"; };
+		0F6EE87CE4A4052BB008566374DA9778 /* Pods-ATLocationManager-MacOSXUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATLocationManager-MacOSXUITests.modulemap"; sourceTree = "<group>"; };
+		10B749E435795EC36E6463C1D836E6FC /* Pods-ATLocationManager-MacOSXUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATLocationManager-MacOSXUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14E30676FA0154424A73E99D0639B517 /* Pods-ATLocationManager-MacOSXUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATLocationManager-MacOSXUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1740F4CF3E94F821F090CBAB4927D2AA /* Pods-ATLocationManager-MacOSXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLocationManager-MacOSXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21023C20EFB239F6788C8A393896EC63 /* Pods-ATLocationManager-MacOSXUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATLocationManager-MacOSXUITests-umbrella.h"; sourceTree = "<group>"; };
+		221E53B6A76E346A310107A0C7F66787 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		23B25B5B65A744358F1D55FF4BBCCD16 /* Pods-ATLocationManager-MacOSXTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATLocationManager-MacOSXTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		431A0706834F924E00EA9C84A4A03820 /* Pods-ATLocationManager-MacOSXTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATLocationManager-MacOSXTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43A6552C38A3142F4442DCC08060FAF6 /* Pods-ATLocationManager-MacOSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLocationManager-MacOSXTests.release.xcconfig"; sourceTree = "<group>"; };
+		505331E00B183B6A7715A05CF8A45C54 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		55D70C6DACE6C291B48C7F91DA1E0699 /* Pods-ATLocationManager-MacOSXTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATLocationManager-MacOSXTests.modulemap"; sourceTree = "<group>"; };
+		5B5A47B194AF1C64B2232BD6CE93B449 /* ATLocationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATLocationManager.modulemap; sourceTree = "<group>"; };
+		61C1952E5EA00B2B38930F137A282438 /* Pods-ATLocationManager-MacOSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATLocationManager-MacOSX-frameworks.sh"; sourceTree = "<group>"; };
+		7B3AA0347E5CCDEF6CD3D45B60BC829E /* Pods_ATLocationManager_MacOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATLocationManager_MacOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BB6F3E258AECDE73F74F040B4E2E33 /* Pods-ATLocationManager-MacOSXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLocationManager-MacOSXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ABEA19AA720ACEB2FAB0BD4814903B2 /* Pods-ATLocationManager-MacOSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATLocationManager-MacOSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		9091D538C9BF359585DAFA1AA3508F79 /* Pods-ATLocationManager-MacOSXTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATLocationManager-MacOSXTests-dummy.m"; sourceTree = "<group>"; };
+		92CF66AC69C396628C09A7588B7346C5 /* Pods-ATLocationManager-MacOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLocationManager-MacOSX.release.xcconfig"; sourceTree = "<group>"; };
+		971701F6225B2AC300ECDFF8 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		971701FA225B42C100ECDFF8 /* LocationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF820D331EF75E39FB42041548FCA16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9F93506EAC47D395AE490DC220F2DE61 /* Pods-ATLocationManager-MacOSXUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATLocationManager-MacOSXUITests-dummy.m"; sourceTree = "<group>"; };
+		A2D43E05CC7E05252F09B45C9BFCAB3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A3DB420694F7F08A51805BC23AF0DB22 /* ATLocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATLocationManager.xcconfig; sourceTree = "<group>"; };
+		A6DE6E61B574F13914F47F470D0E335B /* Pods-ATLocationManager-MacOSXUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATLocationManager-MacOSXUITests-Info.plist"; sourceTree = "<group>"; };
+		AC6D6704D3C501E6EB7DE2B79C52067C /* ATLocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATLocationManager-dummy.m"; sourceTree = "<group>"; };
+		ADA0214572248F5DC798FE2279FBD5D9 /* ATLocationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATLocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04DDFA4A38B8E0C7788320472628847 /* ATLocationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ATLocationManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B46DF96639E0224554CE7CBB40EB9F24 /* Pods-ATLocationManager-MacOSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATLocationManager-MacOSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B745F65A12A39089BE290264EE835329 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		BB6699225E6786A79C4257D7E67B4CBD /* ATLocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATLocationManager-umbrella.h"; sourceTree = "<group>"; };
+		BC151C28693A802E66F184B849578809 /* Pods_ATLocationManager_MacOSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATLocationManager_MacOSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C411B18BAC9605E816B0447D8305CC3A /* Pods-ATLocationManager-MacOSXTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATLocationManager-MacOSXTests-umbrella.h"; sourceTree = "<group>"; };
+		C60D222EFDBF22FECD75BBCC94EF042B /* Pods-ATLocationManager-MacOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLocationManager-MacOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		CC5FC1F26069C7FEFF594AE808023ED1 /* ATLocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATLocationManager-prefix.pch"; sourceTree = "<group>"; };
+		D97DC6334A66C5308AD835EE86FDF6B0 /* Pods-ATLocationManager-MacOSXTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATLocationManager-MacOSXTests-Info.plist"; sourceTree = "<group>"; };
+		DA40B2EAF524D5FCD24DD663EF21C24C /* Pods-ATLocationManager-MacOSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATLocationManager-MacOSX.modulemap"; sourceTree = "<group>"; };
+		DC26C46645CE95FB07957690AE0A3BC4 /* Pods-ATLocationManager-MacOSX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATLocationManager-MacOSX-Info.plist"; sourceTree = "<group>"; };
+		E0B34D3D3E42BD1D6B1BA0107D748BDB /* Pods-ATLocationManager-MacOSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATLocationManager-MacOSX-dummy.m"; sourceTree = "<group>"; };
+		E198F456E4D9FD0F6781976641D75015 /* Pods-ATLocationManager-MacOSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATLocationManager-MacOSX-umbrella.h"; sourceTree = "<group>"; };
+		EF6EA0D1E27F8EBA1C6A316D2404AF7F /* Pods-ATLocationManager-MacOSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLocationManager-MacOSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F53715E81CCF2FC380F3FE82E799EFCA /* Pods_ATLocationManager_MacOSXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATLocationManager_MacOSXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4325C871D0AFC1C76A32431E16DA486B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76495F59AAE8DE4BBF5DB1D65AAAA99 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3E51315A321D5E414623597A2C743A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1A6D300B3E5C06D6BD802B1DF66DDD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2220805C9E51FBCE3BE4C3A72B82C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9968E5868FB8EB7E230C5F803215DD86 /* AppKit.framework in Frameworks */,
+				E1652F9D849F8BA438348D1477074898 /* Cocoa.framework in Frameworks */,
+				8C504B726A0F57A1A7FAE01AF516C90F /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9CD0B717E051CF0ECC887895D812BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62183B0F8ECB23484BE14595381CFE11 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5C2B334B6321A2A4BAE86EF9BFAE96 /* ATLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				971701EF225B294800ECDFF8 /* Sources */,
+				BE37BA65088A0050FEC8F40172BAFA4C /* Pod */,
+				CD60C32266E26AD4284D1D50C15FE05E /* Support Files */,
+			);
+			name = ATLocationManager;
+			path = ../../../..;
+			sourceTree = "<group>";
+		};
+		43A0151F9897C47E4B6A14650674D2BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B5C2B334B6321A2A4BAE86EF9BFAE96 /* ATLocationManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6A17BAA21234A15486B918B9F426E63C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA0214572248F5DC798FE2279FBD5D9 /* ATLocationManager.framework */,
+				7B3AA0347E5CCDEF6CD3D45B60BC829E /* Pods_ATLocationManager_MacOSX.framework */,
+				BC151C28693A802E66F184B849578809 /* Pods_ATLocationManager_MacOSXTests.framework */,
+				F53715E81CCF2FC380F3FE82E799EFCA /* Pods_ATLocationManager_MacOSXUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		971701EF225B294800ECDFF8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				971701F0225B294800ECDFF8 /* OSX */,
+				971701F1225B294800ECDFF8 /* iOS */,
+				971701F2225B294800ECDFF8 /* Common */,
+			);
+			name = Sources;
+			path = ATLocationManager/Sources;
+			sourceTree = "<group>";
+		};
+		971701F0225B294800ECDFF8 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
+		971701F1225B294800ECDFF8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		971701F2225B294800ECDFF8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				971701F9225B42AB00ECDFF8 /* Utilities */,
+				971701F5225B2AB100ECDFF8 /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		971701F5225B2AB100ECDFF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				971701F6225B2AC300ECDFF8 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		971701F9225B42AB00ECDFF8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				971701FA225B42C100ECDFF8 /* LocationError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		98964D2A05FA9C201780970002CFCB50 /* Pods-ATLocationManager-MacOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6EE87CE4A4052BB008566374DA9778 /* Pods-ATLocationManager-MacOSXUITests.modulemap */,
+				10B749E435795EC36E6463C1D836E6FC /* Pods-ATLocationManager-MacOSXUITests-acknowledgements.markdown */,
+				14E30676FA0154424A73E99D0639B517 /* Pods-ATLocationManager-MacOSXUITests-acknowledgements.plist */,
+				9F93506EAC47D395AE490DC220F2DE61 /* Pods-ATLocationManager-MacOSXUITests-dummy.m */,
+				A6DE6E61B574F13914F47F470D0E335B /* Pods-ATLocationManager-MacOSXUITests-Info.plist */,
+				21023C20EFB239F6788C8A393896EC63 /* Pods-ATLocationManager-MacOSXUITests-umbrella.h */,
+				89BB6F3E258AECDE73F74F040B4E2E33 /* Pods-ATLocationManager-MacOSXUITests.debug.xcconfig */,
+				1740F4CF3E94F821F090CBAB4927D2AA /* Pods-ATLocationManager-MacOSXUITests.release.xcconfig */,
+			);
+			name = "Pods-ATLocationManager-MacOSXUITests";
+			path = "Target Support Files/Pods-ATLocationManager-MacOSXUITests";
+			sourceTree = "<group>";
+		};
+		9B315BCC43987224A4B2DA89AA05FDDD /* Pods-ATLocationManager-MacOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				55D70C6DACE6C291B48C7F91DA1E0699 /* Pods-ATLocationManager-MacOSXTests.modulemap */,
+				23B25B5B65A744358F1D55FF4BBCCD16 /* Pods-ATLocationManager-MacOSXTests-acknowledgements.markdown */,
+				431A0706834F924E00EA9C84A4A03820 /* Pods-ATLocationManager-MacOSXTests-acknowledgements.plist */,
+				9091D538C9BF359585DAFA1AA3508F79 /* Pods-ATLocationManager-MacOSXTests-dummy.m */,
+				D97DC6334A66C5308AD835EE86FDF6B0 /* Pods-ATLocationManager-MacOSXTests-Info.plist */,
+				C411B18BAC9605E816B0447D8305CC3A /* Pods-ATLocationManager-MacOSXTests-umbrella.h */,
+				EF6EA0D1E27F8EBA1C6A316D2404AF7F /* Pods-ATLocationManager-MacOSXTests.debug.xcconfig */,
+				43A6552C38A3142F4442DCC08060FAF6 /* Pods-ATLocationManager-MacOSXTests.release.xcconfig */,
+			);
+			name = "Pods-ATLocationManager-MacOSXTests";
+			path = "Target Support Files/Pods-ATLocationManager-MacOSXTests";
+			sourceTree = "<group>";
+		};
+		A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D38DECD2B61C7AC1C6821AB9ACF323EF /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE37BA65088A0050FEC8F40172BAFA4C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B04DDFA4A38B8E0C7788320472628847 /* ATLocationManager.podspec */,
+				A2D43E05CC7E05252F09B45C9BFCAB3D /* LICENSE */,
+				9DF820D331EF75E39FB42041548FCA16 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CD60C32266E26AD4284D1D50C15FE05E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B5A47B194AF1C64B2232BD6CE93B449 /* ATLocationManager.modulemap */,
+				A3DB420694F7F08A51805BC23AF0DB22 /* ATLocationManager.xcconfig */,
+				AC6D6704D3C501E6EB7DE2B79C52067C /* ATLocationManager-dummy.m */,
+				04B0069D34EFB1DE64B6B6D3A6D1795E /* ATLocationManager-Info.plist */,
+				CC5FC1F26069C7FEFF594AE808023ED1 /* ATLocationManager-prefix.pch */,
+				BB6699225E6786A79C4257D7E67B4CBD /* ATLocationManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/OSX/ATLocationManager-MacOSX/Pods/Target Support Files/ATLocationManager";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				43A0151F9897C47E4B6A14650674D2BC /* Development Pods */,
+				A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */,
+				6A17BAA21234A15486B918B9F426E63C /* Products */,
+				E2FAAB3276509FBD2FA55FB2356C36AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D38DECD2B61C7AC1C6821AB9ACF323EF /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				221E53B6A76E346A310107A0C7F66787 /* AppKit.framework */,
+				B745F65A12A39089BE290264EE835329 /* Cocoa.framework */,
+				505331E00B183B6A7715A05CF8A45C54 /* CoreLocation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E27DC4104E4761A9761F0EDF95E43335 /* Pods-ATLocationManager-MacOSX */ = {
+			isa = PBXGroup;
+			children = (
+				DA40B2EAF524D5FCD24DD663EF21C24C /* Pods-ATLocationManager-MacOSX.modulemap */,
+				B46DF96639E0224554CE7CBB40EB9F24 /* Pods-ATLocationManager-MacOSX-acknowledgements.markdown */,
+				8ABEA19AA720ACEB2FAB0BD4814903B2 /* Pods-ATLocationManager-MacOSX-acknowledgements.plist */,
+				E0B34D3D3E42BD1D6B1BA0107D748BDB /* Pods-ATLocationManager-MacOSX-dummy.m */,
+				61C1952E5EA00B2B38930F137A282438 /* Pods-ATLocationManager-MacOSX-frameworks.sh */,
+				DC26C46645CE95FB07957690AE0A3BC4 /* Pods-ATLocationManager-MacOSX-Info.plist */,
+				E198F456E4D9FD0F6781976641D75015 /* Pods-ATLocationManager-MacOSX-umbrella.h */,
+				C60D222EFDBF22FECD75BBCC94EF042B /* Pods-ATLocationManager-MacOSX.debug.xcconfig */,
+				92CF66AC69C396628C09A7588B7346C5 /* Pods-ATLocationManager-MacOSX.release.xcconfig */,
+			);
+			name = "Pods-ATLocationManager-MacOSX";
+			path = "Target Support Files/Pods-ATLocationManager-MacOSX";
+			sourceTree = "<group>";
+		};
+		E2FAAB3276509FBD2FA55FB2356C36AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E27DC4104E4761A9761F0EDF95E43335 /* Pods-ATLocationManager-MacOSX */,
+				9B315BCC43987224A4B2DA89AA05FDDD /* Pods-ATLocationManager-MacOSXTests */,
+				98964D2A05FA9C201780970002CFCB50 /* Pods-ATLocationManager-MacOSXUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6446EA1F892D20F89ABBDCD4641C6062 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE09E5B0E7B114B06A8656D10EC74FB /* Pods-ATLocationManager-MacOSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901BFFC79801FBDE7F4665B00E938A32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156C3B6BAD8ECFE2A28DE3DF290CCE00 /* Pods-ATLocationManager-MacOSXTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC40E7566E3891B582C12DA4150B3E96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE7B070F5A6D9B51375699498CC0A5C /* Pods-ATLocationManager-MacOSXUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4431C6896A69422FA134F1D1CACB1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B46E553E2E87C3360818DEED05F5BAD /* ATLocationManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		279FB2960FDA14FE1605D1E4B6C7DBE4 /* Pods-ATLocationManager-MacOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC689FDE8ADD1BF4241441626B0D8F2D /* Build configuration list for PBXNativeTarget "Pods-ATLocationManager-MacOSX" */;
+			buildPhases = (
+				6446EA1F892D20F89ABBDCD4641C6062 /* Headers */,
+				320BD8047EF8A1BA160C310866825143 /* Sources */,
+				4325C871D0AFC1C76A32431E16DA486B /* Frameworks */,
+				EE964FA7AEFBA3AB3016FB68B03C5ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10DB8157866E7A6311B71020EFAFF55D /* PBXTargetDependency */,
+			);
+			name = "Pods-ATLocationManager-MacOSX";
+			productName = "Pods-ATLocationManager-MacOSX";
+			productReference = 7B3AA0347E5CCDEF6CD3D45B60BC829E /* Pods_ATLocationManager_MacOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94038DB321626ABA498C8C9BE1ED2BC5 /* Pods-ATLocationManager-MacOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC18AC284AA4FA9DA83C5E7CC877A8A2 /* Build configuration list for PBXNativeTarget "Pods-ATLocationManager-MacOSXUITests" */;
+			buildPhases = (
+				AC40E7566E3891B582C12DA4150B3E96 /* Headers */,
+				AB8485A8D79CF1F87B84DC048CCA310A /* Sources */,
+				BE3E51315A321D5E414623597A2C743A /* Frameworks */,
+				7EB0610454D552FB8FF8D83B4BC4A847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBBDCB5F663CD0CB34928F37D2FC125 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATLocationManager-MacOSXUITests";
+			productName = "Pods-ATLocationManager-MacOSXUITests";
+			productReference = F53715E81CCF2FC380F3FE82E799EFCA /* Pods_ATLocationManager_MacOSXUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC3C089AF5862922D826258CD9201EBC /* ATLocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B865B10B1303C3C00E676B86EDB96FD /* Build configuration list for PBXNativeTarget "ATLocationManager" */;
+			buildPhases = (
+				DF4431C6896A69422FA134F1D1CACB1B /* Headers */,
+				8C81214046CD6EC310E5C7E837C788C5 /* Sources */,
+				D2220805C9E51FBCE3BE4C3A72B82C95 /* Frameworks */,
+				009BEE578D5FDC6BD8132B846F609406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATLocationManager;
+			productName = ATLocationManager;
+			productReference = ADA0214572248F5DC798FE2279FBD5D9 /* ATLocationManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E88C5ECBCDBBBAF976CD3740739471DA /* Pods-ATLocationManager-MacOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0A16C2333C58DFC70BB695DD95BD1B /* Build configuration list for PBXNativeTarget "Pods-ATLocationManager-MacOSXTests" */;
+			buildPhases = (
+				901BFFC79801FBDE7F4665B00E938A32 /* Headers */,
+				8DC3406E62CF43F96EB6F0EBF52DD135 /* Sources */,
+				E9CD0B717E051CF0ECC887895D812BF4 /* Frameworks */,
+				33EA92A0343C66BA1FB75114D589156F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBC583645A1522A4B5D61147D2F39255 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATLocationManager-MacOSXTests";
+			productName = "Pods-ATLocationManager-MacOSXTests";
+			productReference = BC151C28693A802E66F184B849578809 /* Pods_ATLocationManager_MacOSXTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6A17BAA21234A15486B918B9F426E63C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3C089AF5862922D826258CD9201EBC /* ATLocationManager */,
+				279FB2960FDA14FE1605D1E4B6C7DBE4 /* Pods-ATLocationManager-MacOSX */,
+				E88C5ECBCDBBBAF976CD3740739471DA /* Pods-ATLocationManager-MacOSXTests */,
+				94038DB321626ABA498C8C9BE1ED2BC5 /* Pods-ATLocationManager-MacOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009BEE578D5FDC6BD8132B846F609406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA92A0343C66BA1FB75114D589156F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB0610454D552FB8FF8D83B4BC4A847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE964FA7AEFBA3AB3016FB68B03C5ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		320BD8047EF8A1BA160C310866825143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A35032AEDF3FDDEF9C0C9BBB177F8F /* Pods-ATLocationManager-MacOSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C81214046CD6EC310E5C7E837C788C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971701FB225B42C100ECDFF8 /* LocationError.swift in Sources */,
+				971701F7225B2AC300ECDFF8 /* Location.swift in Sources */,
+				5CC34B7CD545AB96F90C8159B861B02E /* ATLocationManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC3406E62CF43F96EB6F0EBF52DD135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7785D2A875004FDFA77F09D5C2F6261 /* Pods-ATLocationManager-MacOSXTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8485A8D79CF1F87B84DC048CCA310A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E5BADDA1486F4FB10B654018443A08 /* Pods-ATLocationManager-MacOSXUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10DB8157866E7A6311B71020EFAFF55D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATLocationManager;
+			target = CC3C089AF5862922D826258CD9201EBC /* ATLocationManager */;
+			targetProxy = 4F19A6363813D378D8AFD863267B3441 /* PBXContainerItemProxy */;
+		};
+		6EBBDCB5F663CD0CB34928F37D2FC125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ATLocationManager-MacOSX";
+			target = 279FB2960FDA14FE1605D1E4B6C7DBE4 /* Pods-ATLocationManager-MacOSX */;
+			targetProxy = B3E56E5F0E71E0D8A13737D3FD242796 /* PBXContainerItemProxy */;
+		};
+		CBC583645A1522A4B5D61147D2F39255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ATLocationManager-MacOSX";
+			target = 279FB2960FDA14FE1605D1E4B6C7DBE4 /* Pods-ATLocationManager-MacOSX */;
+			targetProxy = B77B77A7063A619CAB8FA2D7B810A449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		149BDDC0A216DA74EACBC443D39B51C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CF66AC69C396628C09A7588B7346C5 /* Pods-ATLocationManager-MacOSX.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ATLocationManager-MacOSX/Pods-ATLocationManager-MacOSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATLocationManager-MacOSX/Pods-ATLocationManager-MacOSX.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F48AA929185564D414F6C3DF04C61EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89BB6F3E258AECDE73F74F040B4E2E33 /* Pods-ATLocationManager-MacOSXUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ATLocationManager-MacOSXUITests/Pods-ATLocationManager-MacOSXUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATLocationManager-MacOSXUITests/Pods-ATLocationManager-MacOSXUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E79FF9FD6C473A93A5A6556A9E90E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6EA0D1E27F8EBA1C6A316D2404AF7F /* Pods-ATLocationManager-MacOSXTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ATLocationManager-MacOSXTests/Pods-ATLocationManager-MacOSXTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATLocationManager-MacOSXTests/Pods-ATLocationManager-MacOSXTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51AEA4E1DEE74CC1B1F1D56F3256B9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DB420694F7F08A51805BC23AF0DB22 /* ATLocationManager.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/ATLocationManager/ATLocationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATLocationManager/ATLocationManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ATLocationManager/ATLocationManager.modulemap";
+				PRODUCT_MODULE_NAME = ATLocationManager;
+				PRODUCT_NAME = ATLocationManager;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AEF910A53385514FB037088386E649D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C03EFB344A0C7F78E61CC9A62D7CC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60D222EFDBF22FECD75BBCC94EF042B /* Pods-ATLocationManager-MacOSX.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ATLocationManager-MacOSX/Pods-ATLocationManager-MacOSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATLocationManager-MacOSX/Pods-ATLocationManager-MacOSX.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9614F181A51A36025CFCBE01CC21B231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A6552C38A3142F4442DCC08060FAF6 /* Pods-ATLocationManager-MacOSXTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ATLocationManager-MacOSXTests/Pods-ATLocationManager-MacOSXTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATLocationManager-MacOSXTests/Pods-ATLocationManager-MacOSXTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB39E9DAA3FB7A60D3F76D07BB1684A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA99B4DCB223814AAC0DBEA1A72DD482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DB420694F7F08A51805BC23AF0DB22 /* ATLocationManager.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/ATLocationManager/ATLocationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATLocationManager/ATLocationManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ATLocationManager/ATLocationManager.modulemap";
+				PRODUCT_MODULE_NAME = ATLocationManager;
+				PRODUCT_NAME = ATLocationManager;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF6DEF8274B5835E77A86E10D7437F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1740F4CF3E94F821F090CBAB4927D2AA /* Pods-ATLocationManager-MacOSXUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ATLocationManager-MacOSXUITests/Pods-ATLocationManager-MacOSXUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATLocationManager-MacOSXUITests/Pods-ATLocationManager-MacOSXUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEF910A53385514FB037088386E649D /* Debug */,
+				AB39E9DAA3FB7A60D3F76D07BB1684A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B865B10B1303C3C00E676B86EDB96FD /* Build configuration list for PBXNativeTarget "ATLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA99B4DCB223814AAC0DBEA1A72DD482 /* Debug */,
+				51AEA4E1DEE74CC1B1F1D56F3256B9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0A16C2333C58DFC70BB695DD95BD1B /* Build configuration list for PBXNativeTarget "Pods-ATLocationManager-MacOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E79FF9FD6C473A93A5A6556A9E90E93 /* Debug */,
+				9614F181A51A36025CFCBE01CC21B231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC18AC284AA4FA9DA83C5E7CC877A8A2 /* Build configuration list for PBXNativeTarget "Pods-ATLocationManager-MacOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F48AA929185564D414F6C3DF04C61EE /* Debug */,
+				CF6DEF8274B5835E77A86E10D7437F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC689FDE8ADD1BF4241441626B0D8F2D /* Build configuration list for PBXNativeTarget "Pods-ATLocationManager-MacOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C03EFB344A0C7F78E61CC9A62D7CC5E /* Debug */,
+				149BDDC0A216DA74EACBC443D39B51C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

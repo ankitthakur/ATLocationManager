@@ -1,0 +1,6 @@
+framework module Pods_ATLocationManagerExample_iOSUITests {
+  umbrella header "Pods-ATLocationManagerExample-iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

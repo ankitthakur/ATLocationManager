@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7BFDA6235D6D58AA223603 /* Pods_ATLocationManager_MacOSXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F182B8984C206C2D7F1432 /* Pods_ATLocationManager_MacOSXUITests.framework */; };
+		27C809369918B1E88541B1D7 /* Pods_ATLocationManager_MacOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7DBCB8BF04644499B8F80B /* Pods_ATLocationManager_MacOSX.framework */; };
+		448704339C4F05915A8BF0D3 /* Pods_ATLocationManager_MacOSXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCADBF659B6A5F8270B3FBA /* Pods_ATLocationManager_MacOSXTests.framework */; };
+		971E2B83225B278C00DFA9CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E2B82225B278C00DFA9CF /* AppDelegate.swift */; };
+		971E2B85225B278C00DFA9CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E2B84225B278C00DFA9CF /* ViewController.swift */; };
+		971E2B87225B278C00DFA9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971E2B86225B278C00DFA9CF /* Assets.xcassets */; };
+		971E2B8A225B278C00DFA9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971E2B88225B278C00DFA9CF /* Main.storyboard */; };
+		971E2B96225B278D00DFA9CF /* ATLocationManager_MacOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E2B95225B278D00DFA9CF /* ATLocationManager_MacOSXTests.swift */; };
+		971E2BA1225B278D00DFA9CF /* ATLocationManager_MacOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E2BA0225B278D00DFA9CF /* ATLocationManager_MacOSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		971E2B92225B278C00DFA9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971E2B77225B278C00DFA9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 971E2B7E225B278C00DFA9CF;
+			remoteInfo = "ATLocationManager-MacOSX";
+		};
+		971E2B9D225B278D00DFA9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971E2B77225B278C00DFA9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 971E2B7E225B278C00DFA9CF;
+			remoteInfo = "ATLocationManager-MacOSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37038616E8022DF91706A561 /* Pods-ATLocationManager-MacOSXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLocationManager-MacOSXUITests.release.xcconfig"; path = "Target Support Files/Pods-ATLocationManager-MacOSXUITests/Pods-ATLocationManager-MacOSXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47F182B8984C206C2D7F1432 /* Pods_ATLocationManager_MacOSXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATLocationManager_MacOSXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC533D0724AC9FF37D5AFC5 /* Pods-ATLocationManager-MacOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLocationManager-MacOSX.release.xcconfig"; path = "Target Support Files/Pods-ATLocationManager-MacOSX/Pods-ATLocationManager-MacOSX.release.xcconfig"; sourceTree = "<group>"; };
+		56B4EBA4ABC953639E1650D5 /* Pods-ATLocationManager-MacOSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLocationManager-MacOSXTests.release.xcconfig"; path = "Target Support Files/Pods-ATLocationManager-MacOSXTests/Pods-ATLocationManager-MacOSXTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E7F0140FD39C9D65EC01983 /* Pods-ATLocationManager-MacOSXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLocationManager-MacOSXUITests.debug.xcconfig"; path = "Target Support Files/Pods-ATLocationManager-MacOSXUITests/Pods-ATLocationManager-MacOSXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6326488292B5ACB4B7E0FD59 /* Pods-ATLocationManager-MacOSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLocationManager-MacOSXTests.debug.xcconfig"; path = "Target Support Files/Pods-ATLocationManager-MacOSXTests/Pods-ATLocationManager-MacOSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94644D4DA92016CB4315C207 /* Pods-ATLocationManager-MacOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLocationManager-MacOSX.debug.xcconfig"; path = "Target Support Files/Pods-ATLocationManager-MacOSX/Pods-ATLocationManager-MacOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		971E2B7F225B278C00DFA9CF /* ATLocationManager-MacOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATLocationManager-MacOSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		971E2B82225B278C00DFA9CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		971E2B84225B278C00DFA9CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		971E2B86225B278C00DFA9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		971E2B89225B278C00DFA9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		971E2B8B225B278C00DFA9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971E2B8C225B278C00DFA9CF /* ATLocationManager_MacOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ATLocationManager_MacOSX.entitlements; sourceTree = "<group>"; };
+		971E2B91225B278C00DFA9CF /* ATLocationManager-MacOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATLocationManager-MacOSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		971E2B95225B278D00DFA9CF /* ATLocationManager_MacOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATLocationManager_MacOSXTests.swift; sourceTree = "<group>"; };
+		971E2B97225B278D00DFA9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971E2B9C225B278D00DFA9CF /* ATLocationManager-MacOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATLocationManager-MacOSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		971E2BA0225B278D00DFA9CF /* ATLocationManager_MacOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATLocationManager_MacOSXUITests.swift; sourceTree = "<group>"; };
+		971E2BA2225B278D00DFA9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7DBCB8BF04644499B8F80B /* Pods_ATLocationManager_MacOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATLocationManager_MacOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCADBF659B6A5F8270B3FBA /* Pods_ATLocationManager_MacOSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATLocationManager_MacOSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		971E2B7C225B278C00DFA9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C809369918B1E88541B1D7 /* Pods_ATLocationManager_MacOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971E2B8E225B278C00DFA9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448704339C4F05915A8BF0D3 /* Pods_ATLocationManager_MacOSXTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971E2B99225B278D00DFA9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7BFDA6235D6D58AA223603 /* Pods_ATLocationManager_MacOSXUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		971E2B76225B278C00DFA9CF = {
+			isa = PBXGroup;
+			children = (
+				971E2B81225B278C00DFA9CF /* ATLocationManager-MacOSX */,
+				971E2B94225B278D00DFA9CF /* ATLocationManager-MacOSXTests */,
+				971E2B9F225B278D00DFA9CF /* ATLocationManager-MacOSXUITests */,
+				971E2B80225B278C00DFA9CF /* Products */,
+				A83FD4A938A41163047268A5 /* Pods */,
+				BF49C7F3A663F256DC7F9DF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		971E2B80225B278C00DFA9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				971E2B7F225B278C00DFA9CF /* ATLocationManager-MacOSX.app */,
+				971E2B91225B278C00DFA9CF /* ATLocationManager-MacOSXTests.xctest */,
+				971E2B9C225B278D00DFA9CF /* ATLocationManager-MacOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		971E2B81225B278C00DFA9CF /* ATLocationManager-MacOSX */ = {
+			isa = PBXGroup;
+			children = (
+				971E2B82225B278C00DFA9CF /* AppDelegate.swift */,
+				971E2B84225B278C00DFA9CF /* ViewController.swift */,
+				971E2B86225B278C00DFA9CF /* Assets.xcassets */,
+				971E2B88225B278C00DFA9CF /* Main.storyboard */,
+				971E2B8B225B278C00DFA9CF /* Info.plist */,
+				971E2B8C225B278C00DFA9CF /* ATLocationManager_MacOSX.entitlements */,
+			);
+			path = "ATLocationManager-MacOSX";
+			sourceTree = "<group>";
+		};
+		971E2B94225B278D00DFA9CF /* ATLocationManager-MacOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				971E2B95225B278D00DFA9CF /* ATLocationManager_MacOSXTests.swift */,
+				971E2B97225B278D00DFA9CF /* Info.plist */,
+			);
+			path = "ATLocationManager-MacOSXTests";
+			sourceTree = "<group>";
+		};
+		971E2B9F225B278D00DFA9CF /* ATLocationManager-MacOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				971E2BA0225B278D00DFA9CF /* ATLocationManager_MacOSXUITests.swift */,
+				971E2BA2225B278D00DFA9CF /* Info.plist */,
+			);
+			path = "ATLocationManager-MacOSXUITests";
+			sourceTree = "<group>";
+		};
+		A83FD4A938A41163047268A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94644D4DA92016CB4315C207 /* Pods-ATLocationManager-MacOSX.debug.xcconfig */,
+				4CC533D0724AC9FF37D5AFC5 /* Pods-ATLocationManager-MacOSX.release.xcconfig */,
+				6326488292B5ACB4B7E0FD59 /* Pods-ATLocationManager-MacOSXTests.debug.xcconfig */,
+				56B4EBA4ABC953639E1650D5 /* Pods-ATLocationManager-MacOSXTests.release.xcconfig */,
+				5E7F0140FD39C9D65EC01983 /* Pods-ATLocationManager-MacOSXUITests.debug.xcconfig */,
+				37038616E8022DF91706A561 /* Pods-ATLocationManager-MacOSXUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF49C7F3A663F256DC7F9DF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DBCB8BF04644499B8F80B /* Pods_ATLocationManager_MacOSX.framework */,
+				EDCADBF659B6A5F8270B3FBA /* Pods_ATLocationManager_MacOSXTests.framework */,
+				47F182B8984C206C2D7F1432 /* Pods_ATLocationManager_MacOSXUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		971E2B7E225B278C00DFA9CF /* ATLocationManager-MacOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971E2BA5225B278D00DFA9CF /* Build configuration list for PBXNativeTarget "ATLocationManager-MacOSX" */;
+			buildPhases = (
+				CABBD4022A00B1CACA3FF01A /* [CP] Check Pods Manifest.lock */,
+				971E2B7B225B278C00DFA9CF /* Sources */,
+				971E2B7C225B278C00DFA9CF /* Frameworks */,
+				971E2B7D225B278C00DFA9CF /* Resources */,
+				D37BB9AC179783D0B17DC2F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATLocationManager-MacOSX";
+			productName = "ATLocationManager-MacOSX";
+			productReference = 971E2B7F225B278C00DFA9CF /* ATLocationManager-MacOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		971E2B90225B278C00DFA9CF /* ATLocationManager-MacOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971E2BA8225B278D00DFA9CF /* Build configuration list for PBXNativeTarget "ATLocationManager-MacOSXTests" */;
+			buildPhases = (
+				07AAA159F01C331055071335 /* [CP] Check Pods Manifest.lock */,
+				971E2B8D225B278C00DFA9CF /* Sources */,
+				971E2B8E225B278C00DFA9CF /* Frameworks */,
+				971E2B8F225B278C00DFA9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				971E2B93225B278C00DFA9CF /* PBXTargetDependency */,
+			);
+			name = "ATLocationManager-MacOSXTests";
+			productName = "ATLocationManager-MacOSXTests";
+			productReference = 971E2B91225B278C00DFA9CF /* ATLocationManager-MacOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		971E2B9B225B278D00DFA9CF /* ATLocationManager-MacOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971E2BAB225B278D00DFA9CF /* Build configuration list for PBXNativeTarget "ATLocationManager-MacOSXUITests" */;
+			buildPhases = (
+				61DF5F2D2EB6BDBD119A82D4 /* [CP] Check Pods Manifest.lock */,
+				971E2B98225B278D00DFA9CF /* Sources */,
+				971E2B99225B278D00DFA9CF /* Frameworks */,
+				971E2B9A225B278D00DFA9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				971E2B9E225B278D00DFA9CF /* PBXTargetDependency */,
+			);
+			name = "ATLocationManager-MacOSXUITests";
+			productName = "ATLocationManager-MacOSXUITests";
+			productReference = 971E2B9C225B278D00DFA9CF /* ATLocationManager-MacOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		971E2B77225B278C00DFA9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ankit Thakur";
+				TargetAttributes = {
+					971E2B7E225B278C00DFA9CF = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					971E2B90225B278C00DFA9CF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 971E2B7E225B278C00DFA9CF;
+					};
+					971E2B9B225B278D00DFA9CF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 971E2B7E225B278C00DFA9CF;
+					};
+				};
+			};
+			buildConfigurationList = 971E2B7A225B278C00DFA9CF /* Build configuration list for PBXProject "ATLocationManager-MacOSX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 971E2B76225B278C00DFA9CF;
+			productRefGroup = 971E2B80225B278C00DFA9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				971E2B7E225B278C00DFA9CF /* ATLocationManager-MacOSX */,
+				971E2B90225B278C00DFA9CF /* ATLocationManager-MacOSXTests */,
+				971E2B9B225B278D00DFA9CF /* ATLocationManager-MacOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		971E2B7D225B278C00DFA9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971E2B87225B278C00DFA9CF /* Assets.xcassets in Resources */,
+				971E2B8A225B278C00DFA9CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971E2B8F225B278C00DFA9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971E2B9A225B278D00DFA9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07AAA159F01C331055071335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATLocationManager-MacOSXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61DF5F2D2EB6BDBD119A82D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATLocationManager-MacOSXUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CABBD4022A00B1CACA3FF01A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATLocationManager-MacOSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37BB9AC179783D0B17DC2F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATLocationManager-MacOSX/Pods-ATLocationManager-MacOSX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ATLocationManager/ATLocationManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ATLocationManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATLocationManager-MacOSX/Pods-ATLocationManager-MacOSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		971E2B7B225B278C00DFA9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971E2B85225B278C00DFA9CF /* ViewController.swift in Sources */,
+				971E2B83225B278C00DFA9CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971E2B8D225B278C00DFA9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971E2B96225B278D00DFA9CF /* ATLocationManager_MacOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971E2B98225B278D00DFA9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971E2BA1225B278D00DFA9CF /* ATLocationManager_MacOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		971E2B93225B278C00DFA9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 971E2B7E225B278C00DFA9CF /* ATLocationManager-MacOSX */;
+			targetProxy = 971E2B92225B278C00DFA9CF /* PBXContainerItemProxy */;
+		};
+		971E2B9E225B278D00DFA9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 971E2B7E225B278C00DFA9CF /* ATLocationManager-MacOSX */;
+			targetProxy = 971E2B9D225B278D00DFA9CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		971E2B88225B278C00DFA9CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971E2B89225B278C00DFA9CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		971E2BA3225B278D00DFA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		971E2BA4225B278D00DFA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		971E2BA6225B278D00DFA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94644D4DA92016CB4315C207 /* Pods-ATLocationManager-MacOSX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ATLocationManager-MacOSX/ATLocationManager_MacOSX.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4LT3D3Z62C;
+				INFOPLIST_FILE = "ATLocationManager-MacOSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.location.mac.ATLocationManager-MacOSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		971E2BA7225B278D00DFA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC533D0724AC9FF37D5AFC5 /* Pods-ATLocationManager-MacOSX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ATLocationManager-MacOSX/ATLocationManager_MacOSX.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4LT3D3Z62C;
+				INFOPLIST_FILE = "ATLocationManager-MacOSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.location.mac.ATLocationManager-MacOSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		971E2BA9225B278D00DFA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6326488292B5ACB4B7E0FD59 /* Pods-ATLocationManager-MacOSXTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4LT3D3Z62C;
+				INFOPLIST_FILE = "ATLocationManager-MacOSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.location.mac.ATLocationManager-MacOSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATLocationManager-MacOSX.app/Contents/MacOS/ATLocationManager-MacOSX";
+			};
+			name = Debug;
+		};
+		971E2BAA225B278D00DFA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B4EBA4ABC953639E1650D5 /* Pods-ATLocationManager-MacOSXTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4LT3D3Z62C;
+				INFOPLIST_FILE = "ATLocationManager-MacOSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.location.mac.ATLocationManager-MacOSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATLocationManager-MacOSX.app/Contents/MacOS/ATLocationManager-MacOSX";
+			};
+			name = Release;
+		};
+		971E2BAC225B278D00DFA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7F0140FD39C9D65EC01983 /* Pods-ATLocationManager-MacOSXUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4LT3D3Z62C;
+				INFOPLIST_FILE = "ATLocationManager-MacOSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.location.mac.ATLocationManager-MacOSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ATLocationManager-MacOSX";
+			};
+			name = Debug;
+		};
+		971E2BAD225B278D00DFA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37038616E8022DF91706A561 /* Pods-ATLocationManager-MacOSXUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4LT3D3Z62C;
+				INFOPLIST_FILE = "ATLocationManager-MacOSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.location.mac.ATLocationManager-MacOSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ATLocationManager-MacOSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		971E2B7A225B278C00DFA9CF /* Build configuration list for PBXProject "ATLocationManager-MacOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971E2BA3225B278D00DFA9CF /* Debug */,
+				971E2BA4225B278D00DFA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971E2BA5225B278D00DFA9CF /* Build configuration list for PBXNativeTarget "ATLocationManager-MacOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971E2BA6225B278D00DFA9CF /* Debug */,
+				971E2BA7225B278D00DFA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971E2BA8225B278D00DFA9CF /* Build configuration list for PBXNativeTarget "ATLocationManager-MacOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971E2BA9225B278D00DFA9CF /* Debug */,
+				971E2BAA225B278D00DFA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971E2BAB225B278D00DFA9CF /* Build configuration list for PBXNativeTarget "ATLocationManager-MacOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971E2BAC225B278D00DFA9CF /* Debug */,
+				971E2BAD225B278D00DFA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 971E2B77225B278C00DFA9CF /* Project object */;
+}
