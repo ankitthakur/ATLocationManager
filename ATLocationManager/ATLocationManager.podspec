@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   spec.description      = <<-DESC
-Core Location library in beta version to fetch location with scheduled interval (as minimum interval difference) between consequtive locations with Best Accurary
+Core Location library in beta test version to fetch location with scheduled interval (as minimum interval difference) between consequtive locations with Best Accurary
                        DESC
 
   spec.homepage         = 'https://github.com/ankitthakur/ATLocationManager'
