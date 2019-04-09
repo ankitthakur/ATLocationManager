@@ -26,7 +26,7 @@ Core Location library in beta version to fetch location with scheduled interval 
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Ankit Thakur' => 'ankitthakur85@icloud.com' }
-  spec.source           = { :git => 'https://github.com/ankitthakur85/ATLocationManager.git', :tag => spec.version.to_s }
+  spec.source           = { :git => 'https://github.com/ankitthakur/ATLocationManager.git', :tag => spec.version.to_s }
   # spec.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   spec.requires_arc = true
