@@ -84,7 +84,10 @@ public struct Location: Codable {
         direction = try container.decodeIfPresent(Double.self, forKey: .direction)
         speed = try container.decodeIfPresent(Double.self, forKey: .speed)
         address = try container.decodeIfPresent(String.self, forKey: .address)
-        timestamp = Date(timeIntervalSince1970: TimeInterval(Double(try container.decodeIfPresent(Int64.self, forKey: .timestamp)) ?? 0.0))
+        if let timeStamp = try container.decodeIfPresent(Int64.self, forKey: .timestamp) {
+            timestamp = Date(timeIntervalSince1970: TimeInterval(Double(timeStamp)))
+        }
+
         eventName = try container.decodeIfPresent(String.self, forKey: .eventName)
     }
 

@@ -7,8 +7,11 @@
 
 import Foundation
 
+
+/// List of errors happened during location capture process.
 public struct LocationError: Error {
     enum ErrorKind {
+        
         case noAddress
         case reverseGeocode
         case noLocationFound

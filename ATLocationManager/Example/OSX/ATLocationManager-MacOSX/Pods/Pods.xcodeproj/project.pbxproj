@@ -16,6 +16,9 @@
 		8C504B726A0F57A1A7FAE01AF516C90F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505331E00B183B6A7715A05CF8A45C54 /* CoreLocation.framework */; };
 		971701F7225B2AC300ECDFF8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971701F6225B2AC300ECDFF8 /* Location.swift */; };
 		971701FB225B42C100ECDFF8 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971701FA225B42C100ECDFF8 /* LocationError.swift */; };
+		975351E1225CAD8600321C51 /* Geocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975351E0225CAD8600321C51 /* Geocoder.swift */; };
+		975351E4225CAF2800321C51 /* LocationEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975351E3225CAF2800321C51 /* LocationEventType.swift */; };
+		975351E7225CB01900321C51 /* LocationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975351E6225CB01900321C51 /* LocationConfiguration.swift */; };
 		9968E5868FB8EB7E230C5F803215DD86 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221E53B6A76E346A310107A0C7F66787 /* AppKit.framework */; };
 		9D1A6D300B3E5C06D6BD802B1DF66DDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B745F65A12A39089BE290264EE835329 /* Cocoa.framework */; };
 		B76495F59AAE8DE4BBF5DB1D65AAAA99 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B745F65A12A39089BE290264EE835329 /* Cocoa.framework */; };
@@ -71,6 +74,9 @@
 		92CF66AC69C396628C09A7588B7346C5 /* Pods-ATLocationManager-MacOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLocationManager-MacOSX.release.xcconfig"; sourceTree = "<group>"; };
 		971701F6225B2AC300ECDFF8 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		971701FA225B42C100ECDFF8 /* LocationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
+		975351E0225CAD8600321C51 /* Geocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geocoder.swift; sourceTree = "<group>"; };
+		975351E3225CAF2800321C51 /* LocationEventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEventType.swift; sourceTree = "<group>"; };
+		975351E6225CB01900321C51 /* LocationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationConfiguration.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF820D331EF75E39FB42041548FCA16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9F93506EAC47D395AE490DC220F2DE61 /* Pods-ATLocationManager-MacOSXUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATLocationManager-MacOSXUITests-dummy.m"; sourceTree = "<group>"; };
@@ -192,7 +198,8 @@
 		971701F2225B294800ECDFF8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				971701F9225B42AB00ECDFF8 /* Utilities */,
+				975351E5225CB00600321C51 /* LocationManager */,
+				975351DF225CAD6100321C51 /* GeocoderUtils */,
 				971701F5225B2AB100ECDFF8 /* Model */,
 			);
 			path = Common;
@@ -206,12 +213,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		971701F9225B42AB00ECDFF8 /* Utilities */ = {
+		975351DF225CAD6100321C51 /* GeocoderUtils */ = {
+			isa = PBXGroup;
+			children = (
+				975351E0225CAD8600321C51 /* Geocoder.swift */,
+			);
+			path = GeocoderUtils;
+			sourceTree = "<group>";
+		};
+		975351E5225CB00600321C51 /* LocationManager */ = {
 			isa = PBXGroup;
 			children = (
 				971701FA225B42C100ECDFF8 /* LocationError.swift */,
+				975351E3225CAF2800321C51 /* LocationEventType.swift */,
+				975351E6225CB01900321C51 /* LocationConfiguration.swift */,
 			);
-			path = Utilities;
+			path = LocationManager;
 			sourceTree = "<group>";
 		};
 		98964D2A05FA9C201780970002CFCB50 /* Pods-ATLocationManager-MacOSXUITests */ = {
@@ -513,8 +530,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975351E4225CAF2800321C51 /* LocationEventType.swift in Sources */,
 				971701FB225B42C100ECDFF8 /* LocationError.swift in Sources */,
+				975351E1225CAD8600321C51 /* Geocoder.swift in Sources */,
 				971701F7225B2AC300ECDFF8 /* Location.swift in Sources */,
+				975351E7225CB01900321C51 /* LocationConfiguration.swift in Sources */,
 				5CC34B7CD545AB96F90C8159B861B02E /* ATLocationManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
