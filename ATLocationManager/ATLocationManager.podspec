@@ -33,9 +33,7 @@ Core Location library in beta test version to fetch location with scheduled inte
   spec.ios.deployment_target  = '10.0'
   spec.osx.deployment_target  = '10.10'
 
-  spec.source_files       = 'ATLocationManager/Sources/Common/**/*.swift'
-  spec.ios.source_files   = 'ATLocationManager/Sources/iOS/**/*.swift'
-  spec.osx.source_files   = 'ATLocationManager/Sources/OSX/**/*.swift'
+  spec.source_files       = 'ATLocationManager/Sources/Common/**/*.{h,m,swift}'
 
   # spec.resource_bundles = {
   #   'ATLocationManager' => ['ATLocationManager/Assets/*.png']
