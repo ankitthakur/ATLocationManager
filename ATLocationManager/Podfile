@@ -1,14 +1,14 @@
 use_frameworks!
 
-target 'ATLocationManager_Example' do
-  pod 'ATLocationManager', :path => '../../'
+workspace './Example/ATLocationManager.xcworkspace'
+project './Example/iOS/ATLocationManagerExample-iOS' do
+    target ATLocationManagerExample-iOS do
+      pod 'ATLocationManager', :path => './ATLocationManager'
+    end
+end
 
-  target 'ATLocationManager_Tests' do
-    inherit! :search_paths
-
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0.2'
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-    pod 'Nimble-Snapshots' , '~> 6.3.0'
-  end
+project './Example/OSX/ATLocationManagerExample-MacOSX' do
+    target ATLocationManager-MacOSX do
+      pod 'ATLocationManager', :path => './ATLocationManager'
+    end
 end

@@ -9,13 +9,10 @@ import Foundation
 
 
 /// List of errors happened during location capture process.
-public struct LocationError: Error {
-    enum ErrorKind {
-        
-        case noAddress
-        case reverseGeocode
-        case noLocationFound
-    }
-    let kind: ErrorKind
-    let message:String
+public enum LocationError: Error {
+    case noAddress
+    case reverseGeocode
+    case noLocationFound
+    case authorization
+    case timedOut
 }

@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Geocoder.swift
 //  ATLocationManager
 //
 //  Created by Ankit Thakur on 09/04/19.
@@ -38,14 +38,14 @@ internal class Geocoder {
 
             if error != nil {
                 print("Reverse geocoder failed with error: \(error!.localizedDescription)")
-                self.locationError = LocationError(kind: .reverseGeocode, message: (error?.localizedDescription)!)
+                self.locationError = .reverseGeocode
             }
             if let placemarks = placemarks , placemarks.count > 0 {
                 let placemark = placemarks[0]
                 self.address = self.formalizedPlace(placemark: placemark)
 
             } else {
-                self.locationError = LocationError(kind: .noAddress, message: "no placemark is found")
+                self.locationError = .noAddress
             }
             group.leave()
         })

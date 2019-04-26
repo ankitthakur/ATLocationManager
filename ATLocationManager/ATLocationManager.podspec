@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'ATLocationManager'
-  spec.version          = '0.0.1'
+  spec.version          = '0.1'
   spec.summary          = 'Core Location library with user defined configurations for iOS and OSX'
   spec.swift_version    = '5.0'
 
@@ -33,9 +33,9 @@ Core Location library in beta test version to fetch location with scheduled inte
   spec.ios.deployment_target  = '10.0'
   spec.osx.deployment_target  = '10.10'
 
-  spec.source_files       = 'ATLocationManager/Sources/Common/*/*.swift'
-  spec.ios.source_files   = 'ATLocationManager/Sources/iOS/*/*.swift'
-  spec.osx.source_files   = 'ATLocationManager/Sources/OSX/*/*.swift'
+  spec.source_files       = 'ATLocationManager/Sources/Common/**/*.swift'
+  spec.ios.source_files   = 'ATLocationManager/Sources/iOS/**/*.swift'
+  spec.osx.source_files   = 'ATLocationManager/Sources/OSX/**/*.swift'
 
   # spec.resource_bundles = {
   #   'ATLocationManager' => ['ATLocationManager/Assets/*.png']
@@ -43,7 +43,5 @@ Core Location library in beta test version to fetch location with scheduled inte
 
   # spec.public_header_files = 'Pod/Classes/**/*.h'
   spec.frameworks = 'CoreLocation'
-  spec.ios.framework  = 'UIKit'
-  spec.osx.framework  = 'AppKit'
   # spec.dependency 'AFNetworking', '~> 2.3'
 end

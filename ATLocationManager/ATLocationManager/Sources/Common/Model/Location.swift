@@ -14,37 +14,37 @@ public struct Location: Codable {
 
     /// Type used to represent a latitude or longitude coordinate in degrees under the WGS 84 reference
     /// frame. The degree can be positive (North and East) or negative (South and West).
-    var latitude: Double?
+    public var latitude: Double?
 
     /// Type used to represent a latitude or longitude coordinate in degrees under the WGS 84 reference
     /// frame. The degree can be positive (North and East) or negative (South and West).
-    var longitude: Double?
+    public var longitude: Double?
 
     /// The altitude of the location. Can be positive (above sea level) or negative (below sea level).
-    var altitude: Double?
+    public var altitude: Double?
 
     /// Type used to represent a location accuracy level in meters. The lower the value in meters, the
     /// more physically precise the location is. A negative accuracy value indicates an invalid location.
-    var horizontalAccuracy: Double?
+    public var horizontalAccuracy: Double?
 
     /// Type used to represent a location accuracy level in meters. The lower the value in meters, the
     /// more physically precise the location is. A negative accuracy value indicates an invalid location.
-    var verticalAccuracy: Double?
+    public var verticalAccuracy: Double?
 
     /// Type used to represent the direction in degrees from 0 to 359.9
-    var direction: Double?
+    public var direction: Double?
 
     /// Type used to represent the speed in meters per second.
-    var speed: Double?
+    public var speed: Double?
 
     /// The address of the location as per CLGeocoded dictionary
-    var address:String?
+    public var address:String?
 
     /// The timestamp, when location is captured
-    var timestamp: Date = Date()
+    public var timestamp: Date = Date()
 
     /// The name of the event, during which process the location is captured.
-    var eventName: String?
+    public var eventName: String?
 
     internal init(inputLocation: CLLocation, inputEventName:String, inputAddress: String) {
         self.latitude = inputLocation.coordinate.latitude

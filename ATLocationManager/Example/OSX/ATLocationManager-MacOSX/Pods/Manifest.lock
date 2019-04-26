@@ -1,5 +1,5 @@
 PODS:
-  - ATLocationManager (0.1.0)
+  - ATLocationManager (0.0.1)
 
 DEPENDENCIES:
   - ATLocationManager (from `../../../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../../../"
 
 SPEC CHECKSUMS:
-  ATLocationManager: e69e439b7557b3f6b0fe842fd67659644f8bbf85
+  ATLocationManager: 2caaf8cf40da48f6a4628fde927f2bf33576e393
 
 PODFILE CHECKSUM: e01ea049bf5e8b31c9136c0cedd5dc851bbadd9c
 

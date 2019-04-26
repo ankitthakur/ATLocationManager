@@ -13,4 +13,7 @@
    <FileRef
       location = "group:iOS/ATLocationManagerExample-iOS/Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
