@@ -1,0 +1,16 @@
+PODS:
+  - ATLocationManager (1.0)
+
+DEPENDENCIES:
+  - ATLocationManager (from `../../../`)
+
+EXTERNAL SOURCES:
+  ATLocationManager:
+    :path: "../../../"
+
+SPEC CHECKSUMS:
+  ATLocationManager: 351fc04ef2695afa76232f1a4fa2f0e5a7d6f91b
+
+PODFILE CHECKSUM: e01ea049bf5e8b31c9136c0cedd5dc851bbadd9c
+
+COCOAPODS: 1.6.0
